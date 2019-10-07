@@ -7,6 +7,8 @@
 //#define __FILE_LOG__
 
 
+// build date : 2019.10.07
+
 int Endian(const int nOrgData) {
 	int temp = 0;
 	temp = (nOrgData & 0x000000FF) << 24;
